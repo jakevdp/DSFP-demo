@@ -4,7 +4,7 @@ python:
   - "3.5"
 
 # command to install dependencies
-install: "pip install -r astroquery astropy"
+install: "pip install astroquery astropy"
 
 # command to run tests
 script: py.test dsfp
